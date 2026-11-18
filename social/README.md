@@ -9,3 +9,5 @@ Public URLs: https://raw.githubusercontent.com/amiralmashwakhi-ai/civil-threader
 | card-tools-en.jpg / -ar | overview | en/ar | all live tools |
 | shot-tin-picker-en.png / -ar | tin_points | en/ar | real screenshot: surface picker on the site |
 | shot-site-home.png | converter | en | real screenshot: site home |
+| card-points-en.jpg / -ar | points (COGO + AutoCAD -> CSV) | en/ar | points export |
+| card-kml-en.jpg / -ar | kml (DWG -> Google Earth KMZ) | en/ar | KML export |
