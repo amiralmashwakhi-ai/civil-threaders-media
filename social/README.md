@@ -1,13 +1,17 @@
 # Civil Threaders social image library
-Public URLs: https://raw.githubusercontent.com/amiralmashwakhi-ai/civil-threaders-media/main/social/<file>
+Public URL of any file: https://raw.githubusercontent.com/amiralmashwakhi-ai/civil-threaders-media/main/social/<file>
 
-| file | tool | lang | use |
-|---|---|---|---|
-| card-converter-en.jpg / -ar | converter | en/ar | Civil 3D -> plain DWG/DXF, 3 steps |
-| card-tin-en.jpg / -ar | tin_points | en/ar | TIN surface points -> CSV |
-| card-checks-en.jpg / -ar | tips | en/ar | 3 checks before sending a DWG (version, PURGE/AUDIT, proxies) |
-| card-tools-en.jpg / -ar | overview | en/ar | all live tools |
-| shot-tin-picker-en.png / -ar | tin_points | en/ar | real screenshot: surface picker on the site |
-| shot-site-home.png | converter | en | real screenshot: site home |
-| card-points-en.jpg / -ar | points (COGO + AutoCAD -> CSV) | en/ar | points export |
-| card-kml-en.jpg / -ar | kml (DWG -> Google Earth KMZ) | en/ar | KML export |
+Rule (Ameer, 2026-11-18): tool and overview posts use the BILINGUAL card (Arabic + English on one card) on BOTH LinkedIn and Facebook. Tip posts use the single-language card that matches the platform (en for LinkedIn, ar for Facebook). Real screenshots (shot-*) may replace a card when the post is about the screen itself.
+
+| file | tool | use |
+|---|---|---|
+| card-bi-converter.jpg | converter | Civil 3D -> plain DWG/DXF (bilingual) |
+| card-bi-tin.jpg | tin_points | TIN surface points -> CSV (bilingual) |
+| card-bi-points.jpg | points | COGO + AutoCAD points -> CSV (bilingual) |
+| card-bi-kml.jpg | kml | DWG -> Google Earth KMZ (bilingual) |
+| card-bi-pdf.jpg | pdf | DWG -> PDF at a chosen scale (bilingual) |
+| card-bi-tools.jpg | overview | converter + TIN only; do not use once other tools are live and featured |
+| card-checks-en.jpg / card-checks-ar.jpg | tips | 3 checks before sending a DWG (version, PURGE/AUDIT, proxies) |
+| shot-site-home.png | converter | real screenshot of the site home |
+| shot-tin-picker-en.png / -ar.png | tin_points | real screenshot of the surface picker |
+| card-converter/tin/points/kml/tools-en/ar.jpg | (older single-language cards) | fallback only |
