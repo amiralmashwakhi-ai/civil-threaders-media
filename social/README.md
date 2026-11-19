@@ -15,3 +15,15 @@ Rule (Ameer, 2026-11-18): VARY the card style across tool posts: alternate 'bili
 | shot-site-home.png | converter | real screenshot of the site home |
 | shot-tin-picker-en.png / -ar.png | tin_points | real screenshot of the surface picker |
 | card-<converter|tin|points|kml|pdf|tools>-en.jpg / -ar.jpg | same tools | single-language cards for the 'platform' style |
+
+## Tool links (site redesign, 2026-11-19)
+Link straight to the featured tool in the post text:
+| tool | link |
+|---|---|
+| converter (DWG) | https://c3d-to-cad.vercel.app |
+| converter (DXF) | https://c3d-to-cad.vercel.app/?tool=dxf |
+| tin_points | https://c3d-to-cad.vercel.app/?tool=points |
+| points (COGO/AutoCAD points) | https://c3d-to-cad.vercel.app/?tool=cogo |
+| kml | https://c3d-to-cad.vercel.app/?tool=kml |
+| pdf | https://c3d-to-cad.vercel.app/?tool=pdf |
+| overview / tips | https://c3d-to-cad.vercel.app |
