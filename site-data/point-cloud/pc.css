@@ -1,0 +1,36 @@
+/* Point cloud tools page (builds on style.css + points.css) */
+.pc-prog{display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}
+.pc-bar{flex:1;min-width:160px;height:8px;border-radius:99px;background:var(--soft);overflow:hidden}
+.pc-bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--cyan),var(--yellow));transition:width .2s}
+#progTxt{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.pc-fname{margin:-6px 0 12px;font-weight:500;word-break:break-all}
+.pc-cls{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.pc-cls span{display:inline-flex;align-items:center;gap:6px;background:var(--soft);border-radius:999px;padding:3px 10px;font-size:13px}
+.pc-cls i,.pc-sw{display:inline-block;width:10px;height:10px;border-radius:3px;flex:none}
+.pc-view{position:relative;background:#141a20;border-radius:var(--radius-m);overflow:hidden;touch-action:none;user-select:none;-webkit-user-select:none;margin-top:4px}
+.pc-view canvas{display:block;width:100%;height:min(62vh,520px);min-height:300px;cursor:grab}
+.pc-view canvas:active{cursor:grabbing}
+.pc-view.selecting canvas{cursor:crosshair}
+.pc-sel{position:absolute;border:2px solid #f5c518;background:rgba(245,197,24,.12);pointer-events:none}
+.pc-vbtns{position:absolute;top:10px;left:10px;direction:ltr;display:flex;flex-wrap:wrap;gap:6px;max-width:calc(100% - 70px)}
+.pc-vb{border:1px solid rgba(255,255,255,.18);background:rgba(20,26,32,.82);color:#e8eef3;border-radius:9px;padding:6px 10px;font:inherit;font-size:13px;cursor:pointer;backdrop-filter:blur(4px)}
+.pc-vb:hover{border-color:#35c2d6}
+.pc-vb.on{background:#35c2d6;color:#0d1b21;border-color:#35c2d6}
+.pc-vb-y.on{background:#f5c518;border-color:#f5c518;color:#1d1a05}
+.pc-legend{position:absolute;bottom:10px;left:10px;right:10px;display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12px;color:#d7e0e6;pointer-events:none;text-shadow:0 1px 2px #000}
+.pc-legend .ramp{width:120px;height:8px;border-radius:4px;display:inline-block;vertical-align:middle;margin:0 6px}
+.pc-legend span{display:inline-flex;align-items:center;gap:5px}
+.pc-north{position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,.25);color:#f5c518;display:grid;place-items:center;font:600 13px "IBM Plex Mono",monospace;background:rgba(20,26,32,.7)}
+.pc-inline{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--muted)}
+.pc-inline select{width:auto;min-height:38px}
+.pc-grid6{grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
+.pc-res{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;margin-top:14px;padding:12px 14px;border-radius:var(--radius-s);background:color-mix(in srgb,var(--green) 9%,transparent);border:1px solid color-mix(in srgb,var(--green) 35%,transparent)}
+.pc-res b{font-size:20px;font-variant-numeric:tabular-nums}
+.pc-cta-row{justify-content:center}
+.pc-codes label{font-variant-numeric:tabular-nums}
+#runBtn{margin-top:14px}
+.pt-stats .pc-wide{grid-column:span 2}
+.pt-stats .pc-wide b{font-size:15px;line-height:1.35;word-break:break-word}
+.pt-stat b{overflow-wrap:anywhere}
+.pt-cta .btn.ghost{color:#fff;border-color:rgba(255,255,255,.35);background:transparent}
+@media (max-width:520px){.pt-stats .pc-wide{grid-column:1/-1}}
